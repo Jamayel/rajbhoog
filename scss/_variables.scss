@@ -1,0 +1,28 @@
+// Media Queries
+@media screen and (max-width:1200px){
+	.feature-content{width:55%;}
+}
+@media screen and (max-width:991px){
+	.screenshots ul li{width:50%;}
+	.feature-content{width:80%;}
+	.features-slider{height:100%}
+}
+
+@media screen and (max-width:640px){
+		.hero {padding: 25px 0 25px;}
+	.use-btn{display:none;}
+	footer li{display:block;text-align:left;padding:20px 0;border-bottom:dashed 1px #c7cacc;margin-right:0!important;float:none;}
+	nav{margin-top:40px;}
+	.overlay ul{margin-left:0px;}
+	.overlay ul li a{padding:20px 0;min-width:120px;font-size:12px;}
+}
+@media screen and (max-width:465px){
+	.hero {padding: 15px 0 15px;}
+	.screenshots ul li{width:100%;min-height:100%;float:none;}
+	.features-slider, .features-slider2, .features-slider-white {padding: 11% 50px 10% 50px;}
+	.hero h1{font-size:40px;margin:100px 0 45px 0}
+	.screenshots-intro{padding:50px 10px;}
+	footer {padding: 50px 0 30px;}
+	.overlay nav {top: 35%;}
+	.hero-content {padding: 10px 0;}
+}
